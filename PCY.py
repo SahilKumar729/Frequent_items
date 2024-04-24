@@ -86,7 +86,7 @@ for message in consumer:
     for pair in frequent_pairs:
         pair_str = ' '.join(pair)
         item_key = str(pair)   
-        item_json = json.dumps({pair: 1})
+        item_json = json.dumps({item_key: "1"})
         item_dict = json.loads(item_json)
         #collection.insert_one(item_dict)
         print(f"Frequent Pair: {pair_str}")
