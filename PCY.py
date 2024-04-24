@@ -7,7 +7,7 @@ from pymongo import MongoClient
 mongo_uri = "mongodb://localhost:27017"
 client = MongoClient(mongo_uri)
 
-db = client['Approri']
+db = client['PCY']
 
 # Select/Create collection (similar to a table)
 collection = db['Frequent']
@@ -88,6 +88,6 @@ for message in consumer:
         item_key = str(pair)   
         item_json = json.dumps({item_key: "1"})
         item_dict = json.loads(item_json)
-        #collection.insert_one(item_dict)
+        collection.insert_one(item_dict)
         print(f"Frequent Pair: {pair_str}")
         

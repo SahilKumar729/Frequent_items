@@ -9,7 +9,7 @@ from pymongo import MongoClient
 mongo_uri = "mongodb://localhost:27017"
 client = MongoClient(mongo_uri)
 
-db = client['Approri']
+db = client['SearchResult']
 
 # Select/Create collection (similar to a table)
 collection = db['Frequent']
@@ -44,7 +44,7 @@ for message in consumer:
             item_key = str(asin)   
             item_json = json.dumps({asin: title})
             item_dict = json.loads(item_json)
-            #collection.insert_one(item_dict)
+            collection.insert_one(item_dict)
             print("ASIN:", asin)
             print("Title:", title)
             break  # Break out of the loop if found

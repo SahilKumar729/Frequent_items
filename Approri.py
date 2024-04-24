@@ -89,7 +89,7 @@ for message in consumer:
                 item_str = ' '.join(item)
                 frequent_itemsets.append(item)
                 item_dict = json.loads(item_json)
-                #collection.insert_one(item_dict)
+                collection.insert_one(item_dict)
                 print(f"Frequent item of size {k+1} is {item_str}")
 
         k += 1
