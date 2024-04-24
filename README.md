@@ -45,7 +45,6 @@ The project offers a scalable and efficient solution for real-time data processi
 - [Troubleshooting](#troubleshooting)
 - [Potential Improvements](#potential-improvements)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
@@ -151,9 +150,6 @@ Run each consumer script (`Approri.py`, `PCY.py`, `SearchProduct.py`) in separat
 
 Contributions are welcome! Feel free to open issues for any bugs or feature requests, or submit pull requests to contribute enhancements or fixes.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgements
 
