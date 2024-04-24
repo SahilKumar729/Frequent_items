@@ -67,7 +67,7 @@ The project offers a scalable and efficient solution for real-time data processi
 
 ## Installation and Setup
 
-1. **Kafka Installation**: Install Apache Kafka by following the instructions [here](link_to_kafka_installation_instructions).
+1. **Kafka Installation**: Install Apache Kafka by following the instructions provided in the [Apache Kafka documentation](https://kafka.apache.org/documentation/#quickstart).
 2. **Python Dependencies**: Install Python dependencies using pip:
 
     ```
