@@ -1,5 +1,11 @@
 # Frequent Itemset Mining and Product Search on Kafka Stream
 
+## Contribution
+This project exists thanks to the extraordinary people who contributed to it.
+-  Muhammad Daniyal Haider (i222042@nu.edu.pk)
+-  Muhammad Anas Khan (i221987@nu.edu.pk)
+
+
 ## Introduction
 
 In today's data-driven world, businesses across various domains rely on analyzing large volumes of data to derive meaningful insights and make informed decisions. This project addresses the need for real-time data processing and analysis by implementing frequent itemset mining and product search functionalities on a Kafka stream.
@@ -21,6 +27,26 @@ The system architecture comprises several components, each playing a crucial rol
 5. **Product Search**: A consumer script allows users to search for products based on specific criteria, such as product category or keywords. This functionality enhances user experience by enabling quick and efficient product discovery.
 
 The project offers a scalable and efficient solution for real-time data processing and analysis, making it suitable for a wide range of applications across industries such as e-commerce, retail, and finance. By leveraging Apache Kafka for real-time data streaming and MongoDB for storing frequent itemsets, the system provides a robust and reliable platform for deriving actionable insights from streaming data.
+
+## Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Dependencies](#dependencies)
+- [Installation and Setup](#installation-and-setup)
+- [Usage](#usage)
+    - [Data Preparation](#data-preparation)
+    - [Start Kafka](#start-kafka)
+    - [Produce Data](#produce-data)
+    - [Consume Data](#consume-data)
+- [Configuration](#configuration)
+- [Troubleshooting](#troubleshooting)
+- [Potential Improvements](#potential-improvements)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
+
 
 ## Features
 
